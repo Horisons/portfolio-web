@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Yovi portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="site-main-wrapper">
+        <button class="hamberger">
+            <img src="./images/hamberger.svg" alt="">
+        </button>
+
+        <div class="mobile-nav">
+            <button class="times"><img src="./images/times.svg" alt=""></button>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Skills</a></li>
+                <li><a href="#hobby">Hoby</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <header id="home">
+            <div class="container">
+                <nav id="main-nav" class="flex items-center justify-between">
+                    <div class="left flex items-center">
+                        <div class="branding">
+                            <img src="./images/logo.png" alt="">
+                        </div>
+                        <div>
+                            <a href="#">Home</a>
+                            <a href="#about">About</a>
+                            <a href="#services">Skills</a>
+                            <a href="#hobby">Hoby</a>
+                            <a href="#contact">Contact</a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <button class="btn btn-primary">Contact</button>
+                    </div>
+                </nav>
+                <div class="hero flex items-center justify-between">
+                    <div class="left flex-1 flex justify-center">
+                        <img src="./images/home-user.png" alt="home user">
+                    </div>
+                    <div class="right flex-1">
+                        <h6> Yovi Naila Salsabila</h6>
+                        <h1>Mahasiswa Universitas <span>Mercu Buana</span></h1>
+                        <p>lulusan dari SMK Telkom Jakarta dengan jurusan Teknik Komputer Jaringan.
+                             Memiliki pengalaman kerja membuat skema jaringan pada saat melaksanakan kerja lapangan,
+                             membuat saya termotivasi untuk terus mendalami ilmu dibidang teknologi</p>
+                        <div>
+                            <button class="btn btn-secondary">DOWNLOAD CV</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="about" class="about">
+            <div class="container flex items-center about-inner-wrap">
+                <div class="flex-1">
+                    <img class="about-me-img" src="./images/about-me.jpg" alt="">
+                </div>
+                <div class="flex-1 right">
+                    <h1>About <span>Me</span></h1>
+                    <h3>Hello! Saya Yovi Naila Salsabila</h3>
+                    <p>Saya lulusan dari SMK Telkom Jakarta dengan jurusan Teknik Komputer Jaringan.
+                        Memiliki pengalaman kerja membuat skema jaringan pada saat melaksanakan kerja 
+                        lapangan, membuat saya termotivasi untuk terus mendalami ilmu dibidang teknologi, 
+                        terutama dalam hal menganalisis data yang mulai saya sukai sejak menempuh Pendidikan 
+                        kuliah di Universitas Mercu Buana pada prodi Teknik Informatika. Aktif dalam organisasi
+                        kampus, menjadikan saya pribadi yang mampu bekerja secara efektif dalam tim dan memiliki 
+                        kemampuan komunikasi dengan baik, serta cekatan.
+                    </p>
+                    <div class="social">
+                        <a href="https://wa.me/085772561905"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.tiktok.com/@senjaviii"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://instagram.com/senjaviii"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h1 class="section-heading"><span>Our </span>Skills</h1>
+                <p>We provide high standar clean website for your business solutions</p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <i class="fas fa-network-wired"></i>
+                        <h2>Cisco Packet Tracer</h2>
+                        <p>Membuat Skema jaringan sederhana pada Cisco Packet Tracer sebelum mengkonfigurasi 
+                            secara detail untuk melindungi keamanan jaringan website.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-sitemap"></i>
+                        <h2>Router Os Mikrotik</h2>
+                        <p>Merancang Bangun Jaringan an Implementasi Sistem Keamanan Jaringan Website Proxy 
+                            pada Router Os Mikrotik
+                        </p>
+                    </div>
+                    <div class="card">
+                        <i class="fab fa-python"></i>
+                        <h2>Python</h2>
+                        <p>Menganalisis data dan trend baru yang terjadi pada lingkungan sekitar menggunakan macam library pada Python.</p>
+                    </div>                   
+                </div>
+            </div>
+        </section>
+
+        <section class="freelancer">
+            <h1>I am a quality freelance content writer</h1>
+            <p>We provide business solutions with neat and high-quality </p>
+            <button class="btn btn-primary">Download CV</button>
+        </section>
+
+        <section class="reviews">
+            <div class="container">
+                <h1 class="section-heading"><span>Our</span> Writing</h1>
+                <p>We provide high standar clean writer for your business solutions</p>
+                <div class="slider">
+                    <div class="slide">
+                        <img src="./images/lady.png" alt="">
+                        <p>"Kalau yang capek dan penuh luka di batin sama mental, gakbisa disembuhin secepat itu."</p>
+                        <span>- Stop, Say Idiot</span>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/lady.png" alt="">
+                        <p>"Saat hati dan pikiran kita terluka, penyembuhannya memerlukan waktu yang tidak bisa dipaksakan. Kita perlu memberikan diri kita waktu dan dukungan yang cukup untuk pulih sepenuhnya."</p>
+                        <span>- Stop, Say Idiot</span>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/lady.png" alt="">
+                        <p>"Proses penyembuhan membutuhkan waktu, terutama untuk luka-luka yang tak terlihat secara fisik. Bersabarlah dengan dirimu sendiri dan izinkan proses penyembuhan berlangsung secara alami."</p>
+                        <span>- Stop, Say Idiot</span>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/lady.png" alt="">
+                        <p>"Seperti halnya luka fisik, luka emosional juga memerlukan perawatan dan kesabaran yang lembut untuk sembuh. Berikanlah dirimu kasih sayang dan waktu yang diperlukan untuk pemulihan batin yang utuh.</p>
+                        <span>- Stop, Say Idiot</span>
+                    </div>
+                </div>
+                <div class="slider-dots"></div>
+            </div>
+        </section>       
+
+        <section id="hobby" class="blog work">
+            <div class="container">
+                <h1 class="section-heading"><span>Our</span> Hobby</h1>
+                <p>This is a few of my favorite hobbies.</p>
+
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="overlay">
+                            <span>Hobby</span>
+                            <a href="#">Writing</a>
+                        </div>
+                        <img src="./images/writing.jpg" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span>Hobby</span>
+                            <a href="#">Reading</a>
+                        </div>
+                        <img src="./images/reading.jpg" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span>Hobby</span>
+                            <a href="#">Editing</a>
+                        </div>
+                        <img src="./images/editing.jpg" alt="">
+                    </div>                   
+                </div>
+                
+                
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <h1 class="section-heading">Contact <span>Us</span></h1>
+                <p>Contact us for assistance or inquiries.</p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="./images/phone-logo.png" alt="">
+                        <h1>Call Us On</h1>
+                        <h6>085772561905</h6>
+                    </div>
+                    <div class="card">
+                        <img src="./images/email-logo.png" alt="">
+                        <h1>Email Us At</h1>
+                        <h6> yoyo57408@gmail.com</h6>
+                    </div>
+                    <div class="card">
+                        <img src="./images/home-logo.png" alt="">
+                        <h1>Visit Universitas</h1>
+                        <h6>Universitas Mercu Buana</h6>
+                    </div>
+
+                </div>
+
+                <form action="">
+                    <div class="input-wrap">
+                        <input type="text" placeholder="Your Name *">
+                        <input type="email" placeholder="Your Email *">
+                    </div>
+                    <div class="input-wrap-2">
+                        <input type="text" placeholder="Your Subject...">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message..."></textarea>
+                    </div>
+                    <div class="btn-wrapper">
+                        <button class="btn btn-primary">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <img class="footer-logo" src="./images/logo.png" alt=""> 
+            <div class="socials">
+                <a href="https://wa.me/085772561905"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.tiktok.com/@senjaviii"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://instagram.com/senjaviii"><i class="fa-brands fa-instagram"></i></a>
+            </div>          
+            <div class="copyright">
+                Copyright 2024 © Yovi Naila Salsabila
+            </div>
+        </footer>
+
+        <button id="backToTopBtn"><i class="fa-solid fa-arrow-up"></i></button>
+
+
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
